@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width:428px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .login_logo {
+        width: 100%;
+    }
+    .login_logo img {
+        width: 100%;
+    }
+}

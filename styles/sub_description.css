@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topics {
+    margin-top: 200px;
+    text-align: center;
+}
+
+@media only screen and (max-width:428px) {
+    .topics {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width:770px) {
+    .topics {
+        padding-top: 10px;
+    }
+}
