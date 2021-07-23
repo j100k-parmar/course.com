@@ -49,13 +49,6 @@
     padding: 10px;
 }
 
-.p::after {
-    content: '';
-    width: 200px;
-    height: 400px;
-    background-color: rgb(206, 61, 85);
-}
-
 @media only screen and (max-width:428px) {
     .st1 {
         background-color: #fc9701;
