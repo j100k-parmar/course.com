@@ -1,17 +1,35 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @media only screen and (max-width:428px) {
     .wrapper {
         flex-direction: column;
     }
     .login_logo {
-        width: 100%;
+        width: 200px;
     }
     .login_logo img {
         width: 100%;
+    }
+}
+
+@media only screen and (min-width:428px) and (max-width:770px) {
+    .form-signin::before {
+        left: 355px;
+    }
+    .login_logo img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width:770px) and (max-width:1028px) {
+    .form-signin::before {
+        left: 230px;
+    }
+    .login_logo img {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:1445px) {
+    .banner {
+        padding-top: 200px;
     }
 }

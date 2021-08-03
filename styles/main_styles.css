@@ -290,6 +290,11 @@ section {
     z-index: -1
 }
 
+.logo img {
+    width: 100px;
+    height: 100px;
+}
+
 .logo_container {
     display: inline-block;
     padding-left: 76px
