@@ -33,6 +33,7 @@
     background-color: #eb7b03;
     color: white;
     font-size: 25px;
+    cursor: pointer;
 }
 
 .form-signin h1 {
