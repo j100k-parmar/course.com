@@ -595,7 +595,7 @@ section {
 
 .home_content {
     position: absolute;
-    left: 50%;
+    left: 40%;
     bottom: 109px;
     transform: translateX(-50%);
     background: #ffb606;
