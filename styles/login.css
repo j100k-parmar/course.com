@@ -24,7 +24,7 @@
     width: 1px;
     height: 100%;
     position: absolute;
-    left: 361px;
+    left: 310px;
     top: 0;
     background-color: #c8c2c2;
 }
@@ -59,6 +59,7 @@
 }
 
 input[type="text"] {
+    width: 250px;
     margin-bottom: -1px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
