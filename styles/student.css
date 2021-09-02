@@ -66,6 +66,14 @@
                 background-color: #fc9701;
             }
             
+            .reg a {
+                color: white;
+            }
+            
+            .reg a:hover {
+                color: rgb(48, 45, 45);
+            }
+            
             @media only screen and (max-width:428px) {
                 .st1 {
                     background-color: #fc9701;

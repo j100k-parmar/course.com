@@ -14,20 +14,20 @@
 }
 
 .wrapper {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin: 20px;
     border-radius: 10px;
 }
 
-.form-signin::before {
+
+/* .form-signin::before {
     content: '';
     width: 1px;
     height: 100%;
     position: absolute;
-    left: 310px;
+    left: 370px;
     top: 0;
     background-color: #c8c2c2;
-}
+} */
 
 .form-signin .btn {
     background-color: #eb7b03;
@@ -42,8 +42,8 @@
 
 .form-signin {
     max-width: 380px;
-    padding: 15px 35px 45px;
-    margin: 0 auto;
+    padding: 30px 30px 45px;
+    margin: 0 14px;
     background-color: #fff;
 }
 
@@ -58,8 +58,10 @@
     padding: 10px;
 }
 
-input[type="text"] {
-    width: 250px;
+input[type="text"],
+input[type="password"],
+input[type="date"] {
+    width: 300px;
     margin-bottom: -1px;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
