@@ -688,6 +688,12 @@
         border: none
     }
     
+    .newsletter_submit_btn:hover {
+        background-color: #1a1a1a;
+        color: white;
+        border: 2px solid white;
+    }
+    
     .card-img-top {
         border-top-left-radius: 0;
         border-top-right-radius: 0

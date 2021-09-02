@@ -76,3 +76,14 @@ input[type="password"] {
 .login_logo img {
     width: 200px;
 }
+
+@media only screen and (max-width:575px) {
+    input[type="text"],
+    input[type="password"],
+    input[type="date"] {
+        width: 100%;
+    }
+    .form-signin {
+        margin: 0;
+    }
+}

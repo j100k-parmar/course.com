@@ -139,7 +139,11 @@
 
 @media only screen and (max-width:959px) {}
 
-@media only screen and (max-width:880px) {}
+@media only screen and (max-width:880px) {
+    .home_content {
+        left: 30%;
+    }
+}
 
 @media only screen and (max-width:768px) {}
 
@@ -203,10 +207,7 @@
         height: 372px
     }
     .home_content {
-        padding-top: 17px;
-        padding-bottom: 11px;
-        padding-left: 22px;
-        padding-right: 24px
+        left: 15%;
     }
     .home_content h1 {
         font-size: 30px
@@ -311,4 +312,8 @@
     }
 }
 
-@media only screen and (max-width:400px) {}
+@media only screen and (max-width:400px) {
+    .home_content {
+        left: 10%;
+    }
+}

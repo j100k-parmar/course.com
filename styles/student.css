@@ -61,6 +61,12 @@
                 border-radius: 60%;
             }
             
+            .newsletter_submit_btn:hover {
+                background-color: #1a1a1a;
+                color: white;
+                border: 2px solid white;
+            }
+            
             .reg button {
                 border-radius: 20px;
                 background-color: #fc9701;
