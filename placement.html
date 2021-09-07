@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <title>Document</title>
+    <style>
+        .rooms {
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+        }
+        
+        .rooms img {
+            width: 100%;
+            height: 320px;
+            transition: .3s all ease-in-out;
+            transform: scale(1);
+        }
+        
+        .rooms img:hover {
+            transform: scale(1.2);
+        }
+        
+        .pkg_info {
+            background-color: #ffb606;
+            position: relative;
+            top: -90px;
+        }
+        
+        .pkg_info .btn {
+            background-color: rgb(26, 65, 97);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row  row-cols-lg-3 row-cols-md-2 row-cols-1">
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="rooms text-center bg-white mb-3 shadow">
+                    <img src="images/p1.jpg" alt=" " class="img-fluid">
+                    <div class="pkg_info mt-5">
+                        <div class="price text-center mt-2">
+                            <h5>STANDARD ROOM</h5>
+                            <p class="text-secondary "><i class="fas fa-rupee-sign"></i>3500.00 / per night </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="rooms text-center bg-white mb-3 shadow">
+                    <img src="images/p2.jpg" alt=" " class="img-fluid">
+                    <div class="pkg_info mt-5">
+                        <div class="price text-center mt-2">
+                            <h5>FAMILY ROOM</h5>
+                            <p class="text-secondary "><i class="fas fa-rupee-sign"></i>4000.00 / per night</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="rooms text-center bg-white mb-3 shadow">
+                    <img src="images/p3.jpg" alt=" " class="img-fluid">
+                    <div class="pkg_info mt-5">
+                        <div class="price text-center mt-2 ">
+                            <h5>SINGLE ROOM</h5>
+                            <p class="text-secondary "><i class="fas fa-rupee-sign"></i>2550.00 / per night</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="rooms text-center bg-white mb-3 shadow">
+                    <img src="images/p4.jpg" alt=" " class="img-fluid">
+                    <div class="pkg_info mt-5">
+                        <div class="price text-center mt-2 ">
+                            <h5>DELUX ROOM</h5>
+                            <p class="text-secondary "><i class="fas fa-rupee-sign"></i>1500.00 / per night</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="rooms text-center bg-white mb-3 shadow">
+                    <img src="images/p5.jpeg" alt=" " class="img-fluid">
+                    <div class="pkg_info mt-5">
+                        <div class="price text-center mt-2 ">
+                            <h5>LUXURY ROOM</h5>
+                            <p class="text-secondary "><i class="fas fa-rupee-sign"></i>2000.00 / per night</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="rooms text-center bg-white mb-3 shadow">
+                    <img src="images/p6.jpeg" alt=" " class="img-fluid">
+                    <div class="pkg_info mt-5">
+                        <div class="price text-center mt-2 ">
+                            <h5>SINGLE ROOM</h5>
+                            <p class="text-secondary "><i class="fas fa-rupee-sign"></i>1550.00 / per night</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="styles/bootstrap4/popper.js"></script>
+    <script src="styles/bootstrap4/bootstrap.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

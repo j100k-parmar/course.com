@@ -869,6 +869,10 @@ section {
     margin-bottom: 22px;
 }
 
+.contact_info_item a {
+    color: black;
+}
+
 .contact_info_item:last-child {
     margin-bottom: 0px;
 }

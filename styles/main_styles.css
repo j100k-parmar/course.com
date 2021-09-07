@@ -783,7 +783,7 @@ section {
     width: 55px;
     height: 4px;
     content: '';
-    background: #ffb606
+    background: #ffb606;
 }
 
 .button {
@@ -821,6 +821,7 @@ section {
 .card:hover {
     transform: translateY(-20px);
     transition: 1s;
+    box-shadow: 10px 10px 10px gray;
 }
 
 .card-img-top {
@@ -1282,12 +1283,6 @@ input:last-of-type {
 
 .newsletter_submit_btn:focus {
     border: solid 2px #fff
-}
-
-.newsletter_submit_btn:hover {
-    background-color: #1a1a1a;
-    color: white;
-    border: 2px solid white;
 }
 
 .footer_content {

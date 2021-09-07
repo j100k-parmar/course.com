@@ -56,6 +56,7 @@
     font-size: 16px;
     height: auto;
     padding: 10px;
+    border-radius: none;
 }
 
 input[type="text"],
@@ -63,14 +64,10 @@ input[type="password"],
 input[type="date"] {
     width: 300px;
     margin-bottom: -1px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
 }
 
 input[type="password"] {
     margin-bottom: 20px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
 }
 
 .login_logo img {
