@@ -26,3 +26,25 @@ body {
 h3 {
     color: #ffb606;
 }
+
+@media only screen and (max-width:428px) {
+    .f {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .facility {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:428px) and (max-width:770px) {
+    .f {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .facility {
+        flex-direction: column;
+    }
+}

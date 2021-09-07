@@ -72,10 +72,36 @@ tr:nth-child(odd) {
     }
     .description {
         padding-top: 30px;
+        margin-left: 0;
+    }
+    .description button {
+        margin-left: 75px;
+    }
+    .info img {
+        height: 170px;
+    }
+    .objective h1 {
+        text-align: center;
+    }
+    h1,
+    h4 {
+        text-align: center;
+    }
+    .col {
+        text-align: center;
+    }
+    .review h2 {
+        text-align: center;
+    }
+    textarea {
+        margin-left: 50px;
+    }
+    .review a {
+        margin-left: 35%;
     }
 }
 
-@media only screen and (max-width:770px) {
+@media only screen and (min-width:428px) and (max-width:770px) {
     .info {
         padding: 50px;
         flex-direction: column;
@@ -84,10 +110,25 @@ tr:nth-child(odd) {
         padding-top: 30px;
         margin-left: 0;
     }
+    h1,
+    h4 {
+        text-align: center;
+    }
+    .col {
+        text-align: center;
+    }
+    .review h2 {
+        text-align: center;
+    }
+    textarea {
+        margin-left: 190px;
+    }
+    .review a {
+        margin-left: 42%;
+    }
 }
 
 .review h1,
-i,
 h2 {
     color: #ffb606;
 }
